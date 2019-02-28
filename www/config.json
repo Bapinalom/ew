@@ -1,14 +1,14 @@
 ﻿{
-	"id": "com.newad.game",
+	"id": "com.gp.game",
 	"version": "1.0.0.0",
-	"name": "Ultimate Ads",
-	"description": "newad",
+	"name": "Slowmo",
+	"description": "sk",
 	"author": "bapin",
 	"email": "bapin.sk@gmail.com",
 	"website": "bapin.com",
 	"fullscreen": "true",
 	"useragent": null,
-	"orientation": "landscape",
+	"orientation": "default",
 	"icons": [{
 		"src": "www/icon-256.png",
 		"width": 256,
@@ -21,9 +21,9 @@
 		"density": "xhdpi"
 	}],
 	"plugins": [
-		{ "id": "cocoon-plugin-ads-android-admob", "version": null },
 		{ "id": "cordova-custom-config", "version": null },
 		{ "id": "cordova-plugin-file", "version": null },
+		{ "id": "cordova-plugin-inappbrowser", "version": null },
 		{ "id": "cordova-plugin-statusbar", "version": null },
 		{ "id": "cordova-plugin-whitelist", "version": null },
 		{ "id": "cordova-plugin-wkwebview-engine", "version": null }

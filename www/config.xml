@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="com.newad.game" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-	<name>Ultimate Ads</name>
-	<description>newad</description>
+<widget id="com.gp.game" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>Slowmo</name>
+	<description>sk</description>
 	<author href="bapin.com" email="bapin.sk@gmail.com">bapin</author>
 
 	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
@@ -9,7 +9,7 @@
 
 	<preference name="android-targetSdkVersion" value="26" />
 
-	<preference name="orientation" value="landscape" />
+	<preference name="orientation" value="default" />
 	<preference name="fullscreen" value="true" />
 	<preference name="DisallowOverscroll" value="true" />
 	<preference name="AllowInlineMediaPlayback" value="true" />
@@ -22,13 +22,14 @@
 	<preference name="android-minSdkVersion" value="21" />
 	<access origin="*" />
 
-	<plugin name="cocoon-plugin-ads-android-admob" />
 	<plugin name="cordova-custom-config" />
 	<plugin name="cordova-plugin-file" />
+	<plugin name="cordova-plugin-inappbrowser" />
 	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="cordova-plugin-whitelist" />
 	<plugin name="cordova-plugin-wkwebview-engine" />
 
+	<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-..." source="git" />
 
 	<engine name="ios" />
 	<engine name="android" />
